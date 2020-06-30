@@ -12,7 +12,6 @@
   <AppDomains>
     <AppDomain>contoso.com</AppDomain>
     <AppDomain>api.github.com</AppDomain>
-    <AppDomain>cors-anywhere.herokuapp.com</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>

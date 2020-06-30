@@ -73,7 +73,7 @@ function logMessage(message) {
  async function getStarCount(userName, repoName) {
   try {
     //You can change this URL to any web request you want to work with.
-    const url = "https://cors-anywhere.herokuapp.com/https://api.github.com/repos/" + userName + "/" + repoName;
+    const url = "https://api.github.com/repos/" + userName + "/" + repoName;
     const response = await fetch(url);
     //Expect that status code is in 200-299 range
     if (!response.ok) {
